@@ -4,7 +4,7 @@
   <version>1.0.0</version>
   <description>This package controls the communication between the system and the sick laser scanner</description>  
   <author>Aumann Florian, Borella Jocelyn, Dehmani Souheil, Marek Felix, Reckling Reno</author>
-  <maintainer email="pascal.meissner@posteo.de">Meißner Pascal</maintainer>
+  <maintainer email="asr-ros@lists.kit.edu">Meißner Pascal</maintainer>
   <license>BSD</license>
 
   <buildtool_depend>catkin</buildtool_depend>
