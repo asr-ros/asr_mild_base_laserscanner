@@ -1926,7 +1926,6 @@ void SickPLS::_parseSickScanProfileB0( const uint8_t * const src_buffer, sick_pl
                                   sick_scan_profile.sick_measurements);
 
     /* If the Sick is pulling real-time indices then pull them too */
-    unsigned int data_offset = 2 + 2*sick_scan_profile.sick_num_measurements;
 
     // /* Buffer the Sick telegram index */
     // sick_scan_profile.sick_telegram_index = src_buffer[data_offset];

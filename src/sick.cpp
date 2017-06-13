@@ -84,7 +84,7 @@ int main(int argc, char** argv)
         scan.angle_min = -90.0*DEG_TO_RAD;
         scan.angle_max = 90.0*DEG_TO_RAD;
         scan.scan_time = 0.1;
-        for(int i=0; i<num_measurement_values; i++)
+        for(unsigned int i=0; i<num_measurement_values; i++)
         {
             if(scan_data[i]>maxrange)
                 maxrange = scan_data[i];
