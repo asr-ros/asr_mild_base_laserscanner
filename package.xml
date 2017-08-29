@@ -2,7 +2,7 @@
 <package>
   <name>asr_mild_base_laserscanner</name>
   <version>1.0.0</version>
-  <description>This package controls the communication between the system and the sick laser scanner</description>  
+  <description>This package provides streams of laser scan messages in cartesian coordinates from a planar sick laser scanner.</description>  
   <author>Aumann Florian, Borella Jocelyn, Dehmani Souheil, Marek Felix, Reckling Reno</author>
   <maintainer email="asr-ros@lists.kit.edu">Meißner Pascal</maintainer>
   <license>BSD</license>
